@@ -1,0 +1,26 @@
+{
+  "name": "build-help",
+  "version": "0.1.0",
+  "description": "POE2 build assistant — screenshot analysis, build guidance, quest help, item evaluation, economy tracking",
+  "skills": [
+    "skills/screenshot",
+    "skills/poe2-research",
+    "skills/build-guide",
+    "skills/quest-help",
+    "skills/endgame",
+    "skills/item-eval",
+    "skills/economy"
+  ],
+  "commands": [
+    "commands/ss.md",
+    "commands/build.md",
+    "commands/quest.md",
+    "commands/lookup.md"
+  ],
+  "agents": [
+    "agents/fast-lookup.md",
+    "agents/research.md",
+    "agents/screenshot-reader.md"
+  ],
+  "hooks": "hooks/hooks.json"
+}

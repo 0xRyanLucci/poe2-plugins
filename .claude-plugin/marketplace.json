@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    {
+      "name": "build-help",
+      "path": "build-help",
+      "description": "Real-time POE2 gaming assistant — screenshot analysis, build guidance, quest help, item evaluation, and economy tracking for Witch class",
+      "version": "0.1.0"
+    }
+  ]
+}

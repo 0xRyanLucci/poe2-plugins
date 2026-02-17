@@ -1,0 +1,8 @@
+{
+  "name": "poe2-plugins",
+  "version": "0.1.0",
+  "description": "Claude Code plugins for Path of Exile 2",
+  "private": true,
+  "workspaces": ["build-help"],
+  "license": "MIT"
+}
