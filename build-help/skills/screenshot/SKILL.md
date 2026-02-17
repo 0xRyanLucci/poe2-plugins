@@ -24,12 +24,12 @@ When analyzing a POE2 screenshot, identify and report on what's visible:
 ### Game UI Elements to Recognize
 - **Inventory/Stash**: Item slots, currency, gems, equipment
 - **Passive Tree**: Allocated nodes, pathing, available points
-- **Skill Bar**: Socketed gems, linked skills, cooldowns
+- **Skill Bar**: Equipped skill gems, support gem configurations, cooldowns
 - **Map/Minimap**: Zone layout, objectives, waypoints
 - **Character Sheet**: Stats, resistances, DPS, defenses
 - **Vendor/NPC**: Available items, quest rewards, dialogue
 - **Combat**: Health/mana/ES status, buffs/debuffs, monsters
-- **Map Device/Atlas**: Map tiers, completion, atlas passives
+- **Map Device/Atlas**: Waystone tiers, corruption progress, atlas passives
 
 ### Analysis Priorities
 1. **What is the user looking at?** Identify the screen/UI element
@@ -41,7 +41,7 @@ When analyzing a POE2 screenshot, identify and report on what's visible:
 When reading items in screenshots:
 - Identify rarity (normal/magic/rare/unique) by border color
 - Read mod lines and identify tier quality where possible
-- Note socket colors and links
+- Note augment sockets and what's slotted (Runes, Soul Cores, Idols)
 - Flag items that are upgrades or valuable
 
 ## Delegation

@@ -12,7 +12,7 @@ You are evaluating POE2 items for a Witch player. Focus on whether items are goo
 ### 1. Identify the Item
 - Base type (and item level if visible)
 - Rarity: Normal / Magic / Rare / Unique
-- Socket configuration (colors, links)
+- Augment sockets (how many, what's slotted — Runes, Soul Cores, Idols)
 - All visible mods
 
 ### 2. Evaluate Mods

@@ -19,24 +19,26 @@ Before giving build advice, establish:
 - What main skill are they using?
 - Do they have a screenshot? (invoke screenshot skill if needed)
 
-### 2. Leveling Guidance (Acts 1-6)
+### 2. Leveling Guidance (Acts 1-4, expanding to 6 at full release)
 - Recommend skill gems appropriate for current act
-- Note when key support gems become available
+- Note when key support gems and higher tiers become available
 - Suggest passive tree priorities (life/ES first, then damage)
-- Flag important quest rewards (skill point quests, lab trials)
+- Flag important quest rewards (skill point quests, ascendancy trials in Acts 2-4)
+- Remind about resistance penalties (-10% per act completed)
 
 ### 3. Ascendancy Planning
 - Witch ascendancies: **Blood Mage**, **Infernalist**, **Lich**
 - See `witch-reference.md` for detailed node descriptions
+- Ascendancy unlocked through **campaign progression** (NOT labyrinths — POE2 has no labs)
+- Trials in Acts 2, 3, and 4 — 2 points each (6 total)
 - Help player choose based on their preferred playstyle
-- Plan lab completion order for maximum impact
 
 ### 4. Endgame Optimization
 For endgame builds, delegate deep research to the `research` agent (sonnet):
 - DPS calculations and scaling analysis
-- Gear upgrade priority
+- Gear upgrade priority (including Augment Socket optimization with Runes/Soul Cores)
 - Passive tree optimization
-- Gem link optimization
+- Support gem tier upgrades and socket configuration
 
 ## Advice Style
 - Be specific: "Pick up Chaos Bolt at level 12 from Act 1 quest reward" not "get a chaos spell"

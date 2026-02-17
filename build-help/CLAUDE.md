@@ -31,12 +31,14 @@ Route tasks to the cheapest model that can handle them well:
 
 ## MCP Tools Available
 
-When `poe2-mcp` is configured, these tool categories are available:
-- **Build analysis**: analyze builds, validate gem links, check passive trees
-- **Gem data**: look up gem info, support gems, skill interactions
-- **Item mods**: evaluate item affixes, crafting bases, mod tiers
-- **Passive tree**: path planning, notable allocation, ascendancy choices
-- **Path of Building**: import/export builds, DPS calculations
+When `poe2-mcp` is configured, these 32 tools are available (all POE2-specific):
+- **Build analysis**: `analyze_character`, `compare_to_top_players`, `validate_build_constraints`
+- **Gem data**: `inspect_spell_gem`, `inspect_support_gem`, `validate_support_combination`, `list_all_spells`, `list_all_supports`
+- **Item mods**: `inspect_mod`, `search_mods_by_stat`, `inspect_base_item`, `search_items`, `validate_item_mods`
+- **Passive tree**: `analyze_passive_tree`, `inspect_keystone`, `inspect_passive_node`, `list_all_keystones`, `list_all_notables`
+- **Path of Building**: `import_pob`, `export_pob`, `get_pob_code`
+- **Trade**: `search_trade_items`, `setup_trade_auth` (requires POESESSID)
+- **Knowledge**: `explain_mechanic`, `get_formula`, `health_check`
 
 Always try MCP tools first before falling back to web search.
 
@@ -52,6 +54,7 @@ Never assume cached/bundled data is current. Always note when data might be outd
 
 ## Conventions
 - When showing build advice, always specify the patch/version context if known
-- Use game terminology consistently (e.g., "skill gems" not "abilities", "passive tree" not "skill tree")
+- Use POE2 terminology (NOT POE1): "Waystones" not "maps", "augment sockets" not "socket links", "support gem tiers" not "gem levels"
+- Remember: POE2 gems go in a dedicated interface, NOT in item sockets. Items have augment sockets for Runes/Soul Cores/Idols only.
 - When evaluating items, explain WHY mods are good/bad for the user's build, not just tier ratings
 - For quest help, give concise directions — the user is actively playing
