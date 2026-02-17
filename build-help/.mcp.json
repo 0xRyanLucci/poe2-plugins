@@ -1,5 +1,6 @@
 {
   "poe2-mcp": {
-    "command": "${CLAUDE_PLUGIN_ROOT}/scripts/start-poe2-mcp.sh"
+    "command": "bash",
+    "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/start-poe2-mcp.sh"]
   }
 }
