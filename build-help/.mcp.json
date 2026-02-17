@@ -1,3 +1,8 @@
 {
-  "mcpServers": {}
+  "mcpServers": {
+    "poe2-mcp": {
+      "command": "/home/ryan/.local/bin/poe2-mcp",
+      "args": ["--stdio"]
+    }
+  }
 }
