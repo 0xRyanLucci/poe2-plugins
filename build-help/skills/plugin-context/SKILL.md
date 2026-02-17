@@ -39,7 +39,7 @@ Route tasks to the cheapest model that can handle them well:
 
 ## MCP Tools Available
 
-When `poe2-mcp` is configured, these 32 tools are available (all POE2-specific):
+The `poe2-mcp` server is configured at user level (`~/.claude/.mcp.json`), not in the plugin's `.mcp.json`. When connected, these 32 tools are available (all POE2-specific):
 - **Build analysis**: `analyze_character`, `compare_to_top_players`, `validate_build_constraints`
 - **Gem data**: `inspect_spell_gem`, `inspect_support_gem`, `validate_support_combination`, `list_all_spells`, `list_all_supports`
 - **Item mods**: `inspect_mod`, `search_mods_by_stat`, `inspect_base_item`, `search_items`, `validate_item_mods`
