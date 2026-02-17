@@ -1,10 +1,3 @@
 {
-  "mcpServers": {
-    "poe2-mcp": {
-      "command": "poe2-mcp",
-      "args": ["--stdio"],
-      "description": "POE2 build analysis, gem data, passive tree, item mods (32 tools)",
-      "env": {}
-    }
-  }
+  "mcpServers": {}
 }
