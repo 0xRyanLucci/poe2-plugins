@@ -1,9 +1,15 @@
 {
-  "hooks": [
-    {
-      "event": "session_start",
-      "command": "echo '🎮 POE2 Build Help plugin active. Commands: /build-help:ss, /build-help:build, /build-help:quest, /build-help:lookup'",
-      "description": "Remind user of available POE2 commands on session start"
-    }
-  ]
+  "description": "POE2 Build Help session start reminder",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/session-start.sh"
+          }
+        ]
+      }
+    ]
+  }
 }

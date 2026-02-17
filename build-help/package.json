@@ -1,7 +1,0 @@
-{
-  "name": "poe2-build-help",
-  "version": "0.1.0",
-  "description": "Claude Code plugin: POE2 real-time build assistant",
-  "license": "MIT",
-  "keywords": ["claude-code-plugin", "poe2", "path-of-exile-2", "build-guide", "gaming"]
-}
